@@ -6,6 +6,7 @@ from nltk.corpus import wordnet
 
 # Download NLTK data
 nltk.download('vader_lexicon')
+nltk.download('punkt')
 
 # Initialize the sentiment analyzer
 sid = SentimentIntensityAnalyzer()
